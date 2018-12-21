@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #cb4154;
+  font-weight: bold;
+  margin-top: 5%;
+}
+#header{
+  top: 0;
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  background-color: #27DF00;
+  text-align: center;
+}
+#fillspace{
+  height: 20%;
+  width: 100%;
+}
+a{
+  text-decoration: none;
+  font-size: 30px;
+  color: #AC1300;
+  padding: 10%;
+}
+.presentruta{
+  height: 40%;
+  width: 20%;
+  margin-top: 3%;
+  text-align: center;
+  position: relative;
+}
+#vänsterpres{
+  float: left;
+  margin-left: 7%;
+}
+#högerpres{
+  float: right;
+  margin-right: 7%;
+}
+.present{
+  height: 100%;
+  width: 100%;
+}
+#Namngepres{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#Namntapres{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.knapp{
+  margin-top: 4%;
+  width: 40%;
+}
+#pilruta{
+  float: left;
+  width: 35%;
+  height: 25%;
+}
+#pil{
+  margin-top: 24%;
+  margin-left: 20%;
+  width: 100%;
+  height: 85%;
+}
+.granruta{
+  height: 30%;
+  width: 20%;
+  padding-top: 5%;
+}
+#vänstergran{
+  float: left;
+  padding-left: 10%;
+}
+#högergran{
+  float: right;
+  padding-right: 10%;
+}
+.gran{
+  height: 100%;
+  width: 100%;
+}
+#nypersonruta{
+  height: 20%;
+  width: 30%;
+  margin-left: 35%;
+}
+#textruta{
+  width: 100%;
+  height: 10%;
+  font-size: 150%;
+}
+#nynamnknapp{
+  width: 101%;
+}
+#skage{
+  background-color: #27DF00;
+  color: #AC1300;
+  height: relative;
+  width: 11%;
+  margin: 5% 3% 0 3%;
+  padding: 1%;
+  text-align: center;
+  border: solid silver 2px;
+  float: left;
+}
+#skata{
+  height: relative;
+  background-color: #27DF00;
+  color: #AC1300;
+  width: 11%;
+  margin: 5% 3% 0 3%;
+  padding: 1%;
+  text-align: center;
+  border: solid silver 2px;
+  float: left;
+}
