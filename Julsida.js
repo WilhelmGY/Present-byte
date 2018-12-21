@@ -12,6 +12,10 @@ function läggtillnamn() {
 
   document.getElementById("textruta").value = "";
   //tömmer textrutan
+
+  var audio = new Audio('Cha_Ching_Register.mp3');
+  audio.play();
+  //spelar upp ett audioklipp
 }
 
 function slumpage() {
